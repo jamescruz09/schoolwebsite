@@ -1,0 +1,198 @@
+
+
+.navbar-brand p{
+    color: white;
+
+}
+
+#navbarNav a{
+    color: white;
+}
+
+#navbarNav a:hover{
+    color: black;
+}
+
+
+.navbar {
+    background-color: rgb(27, 27, 92);
+}
+
+
+.carousel-inner img{
+    width: auto;
+    height: 75vh;
+}
+
+#carouselExampleControls {
+    margin-bottom: 50px;
+}
+
+#first-caption h5{
+    font-family: monospace;
+    font-size: 60px;
+}
+
+#first-caption p{
+    font-size: 30px;
+}
+
+#second-caption h5{
+    font-family: monospace;
+    font-size: 70px;
+}
+
+#second-caption p{
+    font-size: 30px;
+}
+
+
+#univ-image {
+    height: 70vh;
+}
+
+#univ-profile a:hover {
+    color: rgba(116, 4, 141, 0.9) !important;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+}
+
+#third-row {
+    background-color: rgb(27, 27, 92);
+    padding: 20px;
+}
+
+#announcement {
+    border: solid;
+    color: white;
+    
+    
+    
+}
+
+#announcement h1{
+    
+    font-size: 25px;
+
+}
+
+
+#announcement a{
+text-decoration: none;
+color: white;
+font-size: 15px;
+
+}
+
+
+#announcement a:hover{
+    color: black;
+
+}
+    
+
+.d-block {
+    height: 400px;
+
+}
+
+.footer {
+
+    margin-top: 50px;
+    padding-top: 130px;
+    padding-bottom: 110px;
+    padding-left: 10px;
+    color: white;
+    height: 10vh;
+    background-color: rgb(27, 27, 92);
+    
+}
+
+/*  About us page  */
+
+
+
+
+@media screen and (max-width:650px) {
+
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+    }
+   
+    .navbar-brand p {
+        font-size: 15px;
+    }
+
+    #univ-profile {
+        font-size: 20px;
+    }
+    
+    #first-caption h5{
+        font-family: monospace;
+        font-size: 40px;
+    }
+    
+    #first-caption p{
+        font-size: 20px;
+    }
+    
+    #second-caption h5{
+        font-family: monospace;
+        font-size: 50px;
+    }
+    
+    #second-caption p{
+        font-size: 20px;
+    }
+
+   
+}
+
+
+@media screen and (min-width:650px) and (max-width:950px) {
+
+  
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+    }
+   
+
+    .navbar-nav a {
+        font-size: 20px;
+    }
+
+    #univ-profile {
+        font-size: 25px;
+    }
+    
+
+   
+}
+
+@media screen and (min-width:950px) {
+
+    .navbar-brand img {
+        width: 100px;
+        height: 100px;
+    }
+   
+    .navbar-brand p {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    #univ-profile {
+        font-size: 25px;
+    }
+
+    
+    
+   
+}
+
+
+
